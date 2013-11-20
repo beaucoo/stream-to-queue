@@ -1,6 +1,6 @@
 {
   "name": "stream-to-queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A read/write stream that wraps an async.queue https://github.com/caolan/async/#queue to easily queue up tasks.",
   "main": "index.js",
   "keywords": [

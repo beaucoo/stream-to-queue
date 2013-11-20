@@ -24,8 +24,8 @@ var streamToQueue = StreamToQueue(taskFunc, concurrency);
 
 // Check out what happens
 streamToQueue
-    .on('error), console.log)
-    .on('data), console.log)
+    .on('error'), console.log)
+    .on('data'), console.log)
     .on('end'), function() {
         console.log("The streamToQueue has been told to end and all given data has been processed");
     )
@@ -40,6 +40,7 @@ inStream.pipe(streamToQueue).pipe(outStream);
 
 
 ##Release Notes
+v1.0.1 Documentation updates - no code touched
 v1.0.0 First
 
 ##Running Tests
