@@ -1,0 +1,50 @@
+{
+  "name": "stream-to-queue",
+  "version": "1.0.0",
+  "description": "A read/write stream that wraps an async.queue https://github.com/caolan/async/#queue to easily queue up tasks.",
+  "main": "index.js",
+  "keywords": [
+    "stream",
+    "async",
+    "queue"
+  ],
+  "engines": [
+    "node"
+  ],
+  "directories": {
+    "test": "./test"
+  },
+  "scripts": {
+    "test": "mocha test --require must --reporter spec --recursive"
+  },
+  "contributors": [
+    {
+      "name": "BeauCoo",
+      "email": "info@beaucoo.com",
+      "url": "http://beaucoo.com/"
+    },
+    {
+      "name": "Rick Cotter",
+      "email": "rcotter@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/beaucoo/stream-to-queue/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beaucoo/stream-to-queue.git"
+  },
+  "author": "Rick Cotter",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "must": "~0.10.0",
+    "mocha": "~1.x.x",
+    "event-stream": "~3.0.16"
+  },
+  "dependencies": {
+    "through": "~2.3.4",
+    "async": "~0.2.9"
+  }
+}
